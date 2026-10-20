@@ -1,0 +1,3833 @@
+{
+  "export_version": "github-pages-static-export-v1",
+  "snapshot_sha256": "efc973d5035c85a419e6909d3e67014ea5be98b1be4532d2be2dcbb7bdd91612",
+  "public_snapshot_sha256": "2db436722189530e1ccec299835a4efada8fef155c0e78ede4445bca4f5527a2",
+  "public_snapshot_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
+  "source_html_sha256": "ebb5c301681d5c11d38beef548545f3984e5ec27da593c985ce81f492c9996b6",
+  "html_sha256": "6f8151feef21e024c8d1f68c9249ff6b0d7d4fb8aba9372c587743b425990a14",
+  "model_report_sha256": "8253ba180227d79c1ab50f67c342922f05c9a0697b5bd9370afab895b4f03c64",
+  "review_pin_sha256": "e77390181c4a567074cda12d27e8690da956570ca35a44b266221ac4b8292693",
+  "template_sha256": "70c0b43975016868ff6d9bcbe047f0e2289d569200b48eec13c9e5c9fe95f388",
+  "national_js_sha256": "a48cdb2064eda8d295ae5117868634135b95ffe6a92418cc55482c4b9abb61d6",
+  "as_of": "2026-10-20",
+  "built_at": "2026-10-20T22:08:30.874948+00:00",
+  "model_version": "national-event-ensemble-v1",
+  "removed_fields": [
+    {
+      "path": "/races/457/polls/2/source_url",
+      "action": "set_null",
+      "reason": "token_bearing_source_link"
+    },
+    {
+      "path": "/markets/0/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/sources/4/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/sources/5/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/sources/6/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/poll_supplement_status/sources/governor/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/poll_supplement_status/sources/house/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/poll_supplement_status/sources/senate/raw_path",
+      "action": "remove",
+      "reason": "local_raw_path"
+    },
+    {
+      "path": "/market_comparisons/0/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/1/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/2/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/3/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/4/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/5/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/6/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/7/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/8/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/9/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/10/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/11/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/12/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/13/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/14/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/15/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/16/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/17/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/18/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/19/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/20/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/21/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/22/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/23/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/24/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/25/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/26/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/27/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/28/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/29/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/30/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/31/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/32/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/33/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/34/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/35/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/36/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/37/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/38/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/39/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/40/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/41/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/42/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/43/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/44/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/45/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/46/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/47/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/48/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/49/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/50/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/51/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/52/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/53/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/54/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/55/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/56/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/57/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/58/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/59/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/60/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/61/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/62/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/63/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/64/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/65/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/66/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/67/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/68/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/69/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/70/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/71/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/72/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/73/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/74/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/75/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/76/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/77/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/78/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/79/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/80/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/81/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/82/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/83/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/84/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/85/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/86/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/87/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/88/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/89/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/90/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/91/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/92/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/93/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/94/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/95/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/96/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/97/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/98/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/99/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/100/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/101/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/102/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/103/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/104/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/105/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/106/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/107/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/108/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/109/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/110/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/111/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/112/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/113/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/114/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/115/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/116/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/117/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/118/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/119/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/120/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/121/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/122/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/123/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/124/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/125/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/126/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/127/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/128/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/129/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/130/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/131/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/132/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/133/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/134/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/135/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/136/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/137/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/138/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/139/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/140/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/141/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/142/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/143/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/144/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/145/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/146/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/147/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/148/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/149/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/150/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/151/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/152/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/153/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/154/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/155/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/156/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/157/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/158/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/159/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/160/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/161/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/162/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/163/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/164/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/165/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/166/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/167/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/168/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/169/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/170/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/171/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/172/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/173/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/174/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/175/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/176/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/177/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/178/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/179/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/180/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/181/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/182/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/183/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/184/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/185/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/186/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/187/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/188/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/189/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/190/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/191/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/192/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/193/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/194/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/195/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/196/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/197/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/198/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/199/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/200/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/201/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/202/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/203/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/204/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/205/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/206/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/207/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/208/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/209/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/210/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/211/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/212/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/213/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/214/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/215/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/216/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/217/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/218/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/219/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/220/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/221/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/222/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/223/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/224/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/225/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/226/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/227/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/228/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/229/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/230/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/231/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/232/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/233/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/234/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/235/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/236/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/237/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/238/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/239/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/240/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/241/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/242/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/243/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/244/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/245/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/246/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/247/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/248/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/249/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/250/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/251/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/252/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/253/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/254/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/255/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/256/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/257/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/258/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/259/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/260/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/261/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/262/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/263/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/264/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/265/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/266/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/267/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/268/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/269/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/270/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/271/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/272/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/273/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/274/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/275/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/276/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/277/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/278/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/279/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/280/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/281/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/282/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/283/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/284/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/285/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/286/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/287/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/288/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/289/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/290/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/291/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/292/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/293/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/294/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/295/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/296/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/297/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/298/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/299/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/300/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/301/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/302/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/303/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/304/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/305/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/306/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/307/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/308/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/309/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/310/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/311/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/312/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/313/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/314/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/315/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/316/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/317/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/318/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/319/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/320/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/321/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/322/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/323/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/324/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/325/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/326/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/327/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/328/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/329/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/330/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/331/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/332/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/333/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/334/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/335/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/336/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/337/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/338/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/339/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/340/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/341/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/342/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/343/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/344/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/345/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/346/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/347/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/348/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/349/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/350/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/351/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/352/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/353/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/354/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/355/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/356/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/357/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/358/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/359/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/360/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/361/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/362/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/363/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/364/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/365/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/366/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/367/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/368/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/369/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/370/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/371/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/372/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/373/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/374/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/375/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/376/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/377/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/378/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/379/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/380/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/381/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/382/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/383/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/384/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/385/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/386/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/387/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/388/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/389/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/390/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/391/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/392/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/393/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/394/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/395/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/396/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/397/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/398/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/399/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/400/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/401/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/402/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/403/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/404/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/405/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/406/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/407/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/408/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/409/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/410/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/411/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/412/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/413/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/414/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/415/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/416/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/417/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/418/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/419/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/420/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/421/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/422/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/423/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/424/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/425/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/426/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/427/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/428/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/429/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/430/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/431/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/432/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/433/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/434/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/435/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/436/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/437/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/438/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/439/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/440/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/441/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/442/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/443/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/444/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/445/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/446/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/447/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/448/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/449/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/450/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/451/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/452/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/453/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/454/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/455/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/456/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/457/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/458/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/459/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/460/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/461/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/462/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/463/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/464/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/465/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/466/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/467/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/468/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/469/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/470/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/471/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/472/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/473/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/474/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/475/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/476/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/477/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/478/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/479/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/480/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/481/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/482/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/483/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/484/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/485/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/486/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/487/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/488/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/489/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/490/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/491/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/492/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/493/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/494/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/495/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/496/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/497/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/498/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/499/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/500/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/501/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/502/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/503/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/504/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/505/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/506/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/507/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/508/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/509/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/510/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/511/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/512/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/513/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/514/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/515/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/516/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/517/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/518/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/519/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/520/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/521/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/522/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/523/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/524/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/525/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/526/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/527/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/528/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/529/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/530/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/531/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/532/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/533/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/534/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/535/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/536/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/537/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/538/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/539/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/540/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/541/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/542/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/543/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/544/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/545/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/546/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/547/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/548/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/549/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/550/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/551/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/552/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/553/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/554/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/555/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/556/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/557/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/558/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/559/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/560/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/561/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/562/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/563/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/564/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/565/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/566/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/567/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/568/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/569/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/570/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/571/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/572/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/573/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/574/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/575/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/576/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/577/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/578/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/579/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/580/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/581/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/582/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/583/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/584/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/585/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/586/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/587/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/588/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/589/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/590/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/591/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/592/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/593/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/594/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/595/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/596/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/597/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/598/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/599/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/600/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/601/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/602/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/603/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/604/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/605/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/606/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/607/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/608/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/609/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/610/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/611/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/612/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/613/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/614/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/615/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/616/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/617/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/618/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/619/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/620/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/621/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/622/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/623/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/624/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/625/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/626/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/627/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/628/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/629/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/630/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/631/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/632/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/633/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/634/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/635/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/636/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/637/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/638/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/639/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/640/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/641/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/642/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/643/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/644/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/645/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/646/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/647/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/648/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/649/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/650/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/651/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/652/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/653/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/654/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/655/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/656/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/657/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/658/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/659/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/660/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/661/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/662/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/663/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/664/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/665/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/666/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/667/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/668/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/669/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/670/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/671/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/672/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/673/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/674/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/675/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/676/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/677/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/678/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/679/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/680/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/681/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/682/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/683/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/684/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/685/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/686/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/687/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/688/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/689/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/690/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/691/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/692/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/693/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/694/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/695/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/696/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/697/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/698/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/699/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/700/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/701/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/702/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/703/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/704/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/705/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/706/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/707/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/708/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/709/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/710/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/711/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/712/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/713/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/714/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/715/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/716/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/717/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/718/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/719/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/720/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/721/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/722/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/723/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/724/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/725/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/726/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/727/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/728/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/729/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/730/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/731/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/732/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/733/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/734/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/735/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/736/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/737/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/738/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/739/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/740/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/741/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/market_comparisons/742/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    }
+  ],
+  "forecast_values_preserved": true,
+  "output_files": [
+    "index.html",
+    ".nojekyll",
+    "release.json"
+  ]
+}
