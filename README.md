@@ -4,7 +4,7 @@
 
 Public-data research forecasts for U.S. House, Senate and governor races, with an interactive map, seat distributions, dated history and separate betting-market comparisons.
 
-Model as of **2026-10-24**. Snapshot built **2026-10-24T15:40:29.466221+00:00**.
+Model as of **2026-10-24**. Snapshot built **2026-10-24T21:51:29.470170+00:00**.
 
 This repository publishes the static explorer. Model fitting and source collection run locally; this repository does not contain credentials, raw source archives or the private hosting configuration. Successful reviewed local refreshes update the site. An old snapshot retains its original dates.
 
