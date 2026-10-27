@@ -1,83 +1,18 @@
 {
   "export_version": "github-pages-static-export-v1",
-  "snapshot_sha256": "de483fe6ce7efe4e4537dc0a57c5073967b5c7872636c8c8f830b6f58fd9da25",
-  "public_snapshot_sha256": "f53648b4463d54a53091ab3146cb152ff24f450e81ab6a1402e18cef90be32ed",
+  "snapshot_sha256": "44d81b571b2741fb8d05680a79d82a5fb20327bb3543f73bb241c8e7df04cab5",
+  "public_snapshot_sha256": "d70ad1a7ad16b825bdd8c30ff790dfc219eff20a360d6f9ef65ae233c9e743f7",
   "public_snapshot_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
-  "source_html_sha256": "3c10a71210007b1c6f9f40fe80c96ce83788e48491e41e61532524f91c4125c5",
-  "html_sha256": "874bda5fff554c1e0501b400ef165be13ec848a66f3f9f9afb99b78647addf04",
+  "source_html_sha256": "0724af30e2a27dc0bd40e31874c820657da8b5f8551f8c3cba66fc90933c4b16",
+  "html_sha256": "f8830605e0eb464d0ce2cf3f892e7a5a1982983a16e2d292584c04203dda4a66",
   "model_report_sha256": "8253ba180227d79c1ab50f67c342922f05c9a0697b5bd9370afab895b4f03c64",
-  "review_pin_sha256": "245b20ea4b59b59ebfc57d551272e4d1e68ad585c7b53257e78c85daa94ad27f",
+  "review_pin_sha256": "173f6555e8c732a4911bf5b9e135c8eb0a9fde9c70e68bf07d488a99401bdd1a",
   "template_sha256": "70c0b43975016868ff6d9bcbe047f0e2289d569200b48eec13c9e5c9fe95f388",
-  "national_js_sha256": "31f08a35c3a35f7a3b7e8f3a691905bfcc4362404fa5436fe97c2b3ad7ee48d2",
+  "national_js_sha256": "c544324b6321b06a815cea14c34d1117f3d4b58c78f58e46fe00efad6e91239c",
   "as_of": "2026-10-27",
-  "built_at": "2026-10-27T15:57:18.247496+00:00",
-  "model_version": "national-single-correction-ensemble-v1",
+  "built_at": "2026-10-27T18:25:38.147649+00:00",
+  "model_version": "national-consistent-single-correction-ensemble-v1",
   "removed_fields": [
-    {
-      "path": "/races/457/polls/2/source_url",
-      "action": "set_null",
-      "reason": "token_bearing_source_link"
-    },
-    {
-      "path": "/markets/0/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/0/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/0/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
     {
       "path": "/market_comparisons/0/rules",
       "action": "remove",
@@ -3792,6 +3727,71 @@
       "path": "/market_comparisons/742/rules",
       "action": "remove",
       "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/races/457/polls/2/source_url",
+      "action": "set_null",
+      "reason": "token_bearing_source_link"
     }
   ],
   "forecast_values_preserved": true,
@@ -3800,11 +3800,11 @@
     ".nojekyll",
     "release.json"
   ],
-  "senate_policy": {
-    "policy_version": "national-single-correction-ensemble-v1",
-    "policy_sha256": "edc03553de068a559a1e4afea35917e9ccea0d5b632053acddf2459726ea1a69",
-    "profile_sha256": "f7ad8eb4f153d41ad87490bb1aac0414908685a1f720ecd2f4e49dd58509e4d7",
-    "review_sha256": "6fdc2b49a650a230be43a458af6a1302c714d544ded229d375490874c50437a0"
+  "national_policy": {
+    "policy_version": "national-consistent-single-correction-ensemble-v1",
+    "policy_sha256": "caa2f6fd9e8f033e52297b95a64a1da3e049687487ac424cf603b138a13335a0",
+    "profile_sha256": "87c49e2cfe5537ae9d4bcc7c14bc838fb9891bc07d6674b60dbb940c4b6842ca",
+    "review_sha256": "f03ff961189bc7471402262acdea302212a50dc44b596e778f03172c1939fca5"
   },
-  "review_policy_sha256": "edc03553de068a559a1e4afea35917e9ccea0d5b632053acddf2459726ea1a69"
+  "review_policy_sha256": "caa2f6fd9e8f033e52297b95a64a1da3e049687487ac424cf603b138a13335a0"
 }
