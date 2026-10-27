@@ -1,17 +1,17 @@
 {
   "export_version": "github-pages-static-export-v1",
-  "snapshot_sha256": "9cfd1dd74f309be30f2021ca2dc4daaa7bf3908dd12495b19e5a724d68020d62",
-  "public_snapshot_sha256": "2067f25932813b4813d5cc80c20f0f0d0ad33623a540e607319f095c8b4474ca",
+  "snapshot_sha256": "ffb2c5b5d14f0269c48fac3eaa488cd3e233fb332017493f232bd3bc517ae7e4",
+  "public_snapshot_sha256": "77e954335de579c9e5a46604bdaab467a969109e03f67c1fa14787a160412313",
   "public_snapshot_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
-  "source_html_sha256": "236f725cc50b0332f6dda26c440f3c0a464da4534a278b06757b91c514f03d6a",
-  "html_sha256": "7c5279398c2fdd78496eb804af8e156186b5088035d947082dd1fb6e1f9c9135",
+  "source_html_sha256": "040c5fa1380c9debca1c822b82a44afbbbd6040e91237d4215f4dfc6b1d5f5fb",
+  "html_sha256": "9f03dce8816a604df525d51062c0443ec6a73a49aacfa9f8e56562703178efc6",
   "model_report_sha256": "8253ba180227d79c1ab50f67c342922f05c9a0697b5bd9370afab895b4f03c64",
-  "review_pin_sha256": "6bb338d83cd681d6832382e84f5c143c2e8794f2fda2cf80ceab20fb1c6561bc",
+  "review_pin_sha256": "0920b136568864efce5d6f39fd7735bfcac76add26a65163229f47a1fc09e45f",
   "template_sha256": "70c0b43975016868ff6d9bcbe047f0e2289d569200b48eec13c9e5c9fe95f388",
-  "national_js_sha256": "4b51ec39f7f4e4ae5858c433a5b2a69eb9a08101cc17715b6d0c7ceda59e7f40",
+  "national_js_sha256": "1d71f980fbebc222348e058ed1c225d39a52a6fa284d3845b89e6619140bf12d",
   "as_of": "2026-10-26",
-  "built_at": "2026-10-27T04:06:13.516167+00:00",
-  "model_version": "national-event-ensemble-v1",
+  "built_at": "2026-10-27T06:47:03.569402+00:00",
+  "model_version": "national-single-correction-ensemble-v1",
   "removed_fields": [
     {
       "path": "/races/457/polls/2/source_url",
@@ -3799,5 +3799,12 @@
     "index.html",
     ".nojekyll",
     "release.json"
-  ]
+  ],
+  "senate_policy": {
+    "policy_version": "national-single-correction-ensemble-v1",
+    "policy_sha256": "edc03553de068a559a1e4afea35917e9ccea0d5b632053acddf2459726ea1a69",
+    "profile_sha256": "f7ad8eb4f153d41ad87490bb1aac0414908685a1f720ecd2f4e49dd58509e4d7",
+    "review_sha256": "f8f5c6418eab9fa7128853cabc428a4bfe23240b2844925157782319c5260f3d"
+  },
+  "review_policy_sha256": "edc03553de068a559a1e4afea35917e9ccea0d5b632053acddf2459726ea1a69"
 }
