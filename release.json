@@ -1,18 +1,83 @@
 {
   "export_version": "github-pages-static-export-v1",
-  "snapshot_sha256": "2fad0ac6c676991460eefd7ea12d5575d7aadb016b69035c567bcb6736017514",
-  "public_snapshot_sha256": "c2152e8e73139ca96b8dcc0f3ddf04bfbbae8466e26ebe663a150a367cd069f0",
+  "snapshot_sha256": "01adcc2dcc300383bc2b0d1d818183f8ea449c3b399b301c97be69858ee174aa",
+  "public_snapshot_sha256": "e5d5fbcc8e83da8c89e7a03bbda8d9587dad1446eebeaa206625a54308bfb1e6",
   "public_snapshot_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
-  "source_html_sha256": "ec20869ccbaf6ccbc09fd20ccbd8462dd0590003ab09bc558edc2fc6234c61ac",
-  "html_sha256": "79b4e29ba16ceca3917a74fe548a4a629e1c7a82ba009b727fe2892433d6329e",
+  "source_html_sha256": "ca286c89452e2a5756cae86ab4b977ed8ebceeec5a64895d03d162ee320a81c4",
+  "html_sha256": "ff32b2550839240c2dbaf90a76b2898635c5c1c3ee1af45aa5ccb31fd1335911",
   "model_report_sha256": "8253ba180227d79c1ab50f67c342922f05c9a0697b5bd9370afab895b4f03c64",
   "review_pin_sha256": "cd86393ea17da7bbfe69e33f315dbf73f56231280cf30cab38d082e32293c308",
   "template_sha256": "70c0b43975016868ff6d9bcbe047f0e2289d569200b48eec13c9e5c9fe95f388",
   "national_js_sha256": "c544324b6321b06a815cea14c34d1117f3d4b58c78f58e46fe00efad6e91239c",
   "as_of": "2026-10-27",
-  "built_at": "2026-10-27T18:25:38.147649+00:00",
+  "built_at": "2026-10-27T21:34:08.201379+00:00",
   "model_version": "national-consistent-single-correction-ensemble-v1",
   "removed_fields": [
+    {
+      "path": "/races/457/polls/2/source_url",
+      "action": "set_null",
+      "reason": "token_bearing_source_link"
+    },
+    {
+      "path": "/markets/0/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/0/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/1/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/2/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_primary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
+    {
+      "path": "/markets/3/rules_secondary",
+      "action": "remove",
+      "reason": "raw_market_rule_text"
+    },
     {
       "path": "/market_comparisons/0/rules",
       "action": "remove",
@@ -3727,71 +3792,6 @@
       "path": "/market_comparisons/742/rules",
       "action": "remove",
       "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/0/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/0/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/0/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/1/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/2/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules_primary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/markets/3/rules_secondary",
-      "action": "remove",
-      "reason": "raw_market_rule_text"
-    },
-    {
-      "path": "/races/457/polls/2/source_url",
-      "action": "set_null",
-      "reason": "token_bearing_source_link"
     }
   ],
   "forecast_values_preserved": true,
