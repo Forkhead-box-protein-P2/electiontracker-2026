@@ -1,16 +1,16 @@
 {
   "export_version": "github-pages-static-export-v1",
-  "snapshot_sha256": "2d99c347d497e1b49260ef9c89c27de4d6336ecd52fc7ad83b1f55438fd5dedc",
-  "public_snapshot_sha256": "9039f56c2fee57420085a9e9582053b9dc07a76ac1dea171600677c4f1029116",
+  "snapshot_sha256": "7d51db518faa2cbe8f6f1a9b1bb276d251ffa11daed9d8050344589eba45980a",
+  "public_snapshot_sha256": "653cadb1625bc814c8c0791957cc60a2881263ec8bde9dfec9e224fe3fade883",
   "public_snapshot_hash_encoding": "UTF-8 JSON; sorted keys; compact separators; ensure_ascii=false",
-  "source_html_sha256": "161b11c7635d20a5f8f1ca0b4274c05516204081ef880bfefce6a774c97e4f41",
-  "html_sha256": "238c3343c986234694de5450a5e06ff81ae7ac72dd61530594b351edc84fead7",
+  "source_html_sha256": "1a2fbcc730c357549c8070f87743bcc465e4d917dd3e0d53bd82f84b1fe01d95",
+  "html_sha256": "2d8f65edc7aacbab36321bf45315754e3781bdaf3bb6a974bd41c7bb5b0ec39e",
   "model_report_sha256": "8253ba180227d79c1ab50f67c342922f05c9a0697b5bd9370afab895b4f03c64",
   "review_pin_sha256": "cd86393ea17da7bbfe69e33f315dbf73f56231280cf30cab38d082e32293c308",
   "template_sha256": "70c0b43975016868ff6d9bcbe047f0e2289d569200b48eec13c9e5c9fe95f388",
   "national_js_sha256": "c544324b6321b06a815cea14c34d1117f3d4b58c78f58e46fe00efad6e91239c",
   "as_of": "2026-10-28",
-  "built_at": "2026-10-28T09:31:28.109490+00:00",
+  "built_at": "2026-10-28T10:04:21.270957+00:00",
   "model_version": "national-consistent-single-correction-ensemble-v1",
   "removed_fields": [
     {
