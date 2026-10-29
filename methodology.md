@@ -232,6 +232,20 @@ An unresolved contest contributes zero to the lower total and one to the upper. 
 
 Expected-seat bounds and histograms use these same aligned arrays. Scenario bounds describe unresolved event/caucus assumptions; they are not confidence intervals. House map colors describe expected Democratic seat share within each state, not a statewide House-win probability or district boundaries. Senate states with two contests show an average probability; the race list supplies individual estimates.
 
+### Headline reference scenario
+
+The single House and Senate headline percentages are **assumption-based reference scenarios**, not averages of the lower and upper bounds. They include established Democratic-caucusing independents. A winner without a modeled Democratic-caucus commitment is left unassigned and does not count toward Democratic control; this does not assign that winner to Republicans.
+
+For the reference scenario only, FL-13, MT-01, NV-02 and TX-28 use their existing latent Democratic-versus-Republican distributions, conditional on no nonmajor winner. Their individual unconditional full-field odds remain withheld. Alaska Senate assumes Mary Peltola and incumbent Dan S. Sullivan reach the final round. Alaska House assumes Nick Begich and Bill Hill reach the final round **and assumes Hill organizes with Democrats if he wins**. No caucus commitment is used here; Hill→D is an explicit reference assumption, not a verified affiliation. A [direct June interview](https://www.alaskasnewssource.com/2026/06/17/guess-well-find-out-hill-wont-say-if-hell-caucus-with-democrats-challenge-against-rep-nick-begich/) records his refusal to commit. Finalist qualification probabilities are not modeled.
+
+The Alaska scenarios use reviewed final-round questions, not first-choice shares or forced exhausted-ballot transfers. Data for Progress October 8–16 Q18 reports Peltola 51–Sullivan 49 among 671 continuing ballots; Q23 reports Begich 51–Hill 49 among 659. Total survey size is 694. The separately verified AARP final-round questions and the previously reviewed Bullfinch House question remain included while within the unchanged 60-day candidate-poll window. The current official Senate field lists Daniel J. Sullivan Jr. as undeclared; he is a different person from incumbent Dan S. Sullivan. Those omitted candidates remain a qualification risk.
+
+For each of the same 20,000 joint draws, the reference scenario sums its Democratic-aligned winner indicators. The displayed percentage is the fraction reaching 218 House seats or 51 Senate seats. A 50-seat Democratic Senate caucus does not meet that threshold with a Republican vice president. The reference calculation preserves the repaired ensemble’s shared shocks and paired structural bounds; no independent coin flips or new historical fits are introduced.
+
+Sources: [Data for Progress original questionnaire](https://www.filesforprogress.org/datasets/2026/10/dfp_alaska_oct_2026.pdf), [AARP questionnaire](https://www.aarp.org/content/dam/aarp/research/topics/voter-opinion-research/politics/2026-midterm-election-poll-alaska-annotated-questionnaire.doi.10.26419-2fres.01065.017.pdf), [official Alaska general-election field](https://www.elections.alaska.gov/candidates/?election=26GENR), and [official election rules](https://www.elections.alaska.gov/election-information/).
+
+This complete reference scenario has not been historically or prospectively validated. The bounds and all assumptions remain available beneath each headline. Reference percentages cannot receive an exact model-minus-market edge. Earlier dated releases remain archived, and current history is separated by both fitted-policy and event-review identity.
+
 ## 12. Historical evaluation and known weaknesses
 
 The complete comparison evaluates 2018, 2020, 2022 and 2024 with earlier-cycle fitting. Fourteen days is primary; 1/7/30 days are sensitivities. Three fixed seeds each use 20,000 draws. Four arms separate original native, predecessor live, single-correction means with native errors/links, and the full rebuild. Identical outcome-free guards apply after exact original-native archive reproduction. Missing truth is unscored; conditional and bounded events remain identified.
@@ -298,5 +312,5 @@ Policy SHA-256: `caa2f6fd9e8f033e52297b95a64a1da3e049687487ac424cf603b138a13335a
 
 Completed rebuild study: `7613748b7e76e4bc1db8c8201de40b0c53e3628ed9c34c4bbe167ee20419a7ff`.
 
-The page documents the October 27, 2026 research transition. Its publication does not change forecast values or upgrade the failed statistical screen.
+The fitted model retains its October 27, 2026 research identity. The October 29 event review repairs Alaska finalist evidence and adds an explicitly assumed chamber reference scenario; it does not refit the model or upgrade the failed statistical screen.
 
