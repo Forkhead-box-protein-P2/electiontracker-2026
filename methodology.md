@@ -314,3 +314,12 @@ Completed rebuild study: `7613748b7e76e4bc1db8c8201de40b0c53e3628ed9c34c4bbe167e
 
 The fitted model retains its October 27, 2026 research identity. The October 29 event review repairs Alaska finalist evidence and adds an explicitly assumed chamber reference scenario; it does not refit the model or upgrade the failed statistical screen.
 
+
+
+## October 29 defect repairs and development freeze
+
+Current candidate-field matching uses the same strictly unique reviewed identity and nickname rules as ordinary polling. Original reported answers and revision/source receipts remain attached. The Nebraska governor correction maps the compiled Brent Lindstrom to official Brett Lindstrom while preserving the original stable identity and source record. These live-only adapters do not rewrite historical training records or refit parameters. Conditional fields retain their explicit flags, including a verified complete field remaining nonconditional.
+
+Alaska governor now withholds unconditional winner odds and shows a separately reviewed Kreiss-Tomkins versus Wilson final-pair scenario. DFP Q13 reports 53–47 among629 continuing respondents; its forced exhausted-ballot Q14 is excluded. AARP's overall final55–45 on page7 is included; the age50+51–49 subgroup is excluded. Total AARP survey n800 is not an asserted continuing-final-round count. Only these authenticated final-round originals enter this scenario; finalist qualification remains unmodeled. The unchanged60-day recency-only candidate aggregation and earlier-cycle candidate-error profile apply.
+
+The owner requested development frozen after independent repair review. Frozen scope includes model code, parameters, thresholds, poll windows, candidate/rule adapters and the disclosed reference assumptions. Poll observations and comparison-only market quotes continue updating through the same model; aggregate early-vote research remains outside forecasts. A necessary emergency repair must receive a separate reviewed version and preserve earlier forecasts. Model date and collection date are separate; election-day freezing retains original pre-election dates, not newly dated odds. Historical failed screens and incomplete vintage/ballot certification remain unchanged.
